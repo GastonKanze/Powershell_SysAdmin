@@ -1,0 +1,10 @@
+Connect with Azure:
+Connect-AzureRmAccount
+
+Select subscription:
+Get-AzureRmSubscription –SubscriptionName "YourSubscriptionName" | Select-AzureRmSubscription
+
+My resources:
+Get-AzureRmResource
+
+Nuget issue: https://stackoverflow.com/questions/51406685/how-do-i-install-the-nuget-provider-for-powershell-on-a-unconnected-machine-so-i
